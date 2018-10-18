@@ -30,7 +30,7 @@ while len(weight) > 1:
 
 	if len(code) == 0:
 		code = temp
-	elif len(temp) == 0:
+	if len(temp) == 0:
 		continue
 	else:
 		code = [code, temp]
